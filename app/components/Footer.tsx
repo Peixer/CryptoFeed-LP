@@ -6,14 +6,24 @@ const Footer = () => {
       <footer className="dark:text-gray-50">
         <div className="container flex flex-col p-4 mx-auto md:p-8 lg:flex-row divide-gray-400">
           <ul className="self-center py-6 space-y-4 text-center sm:flex sm:space-y-0 sm:justify-around sm:space-x-4 lg:flex-1 lg:justify-start">
-            <a href="#home">
-              <li>Home</li>
-            </a>
-            <li>About</li>
-            <li>Minted</li>
-            <li>Roadmap</li>
-            <li>Team</li>
-            <li>Contacts</li>
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#minted">Minted</a>
+            </li>
+            <li>
+              <a href="#roadmap">Roadmap</a>
+            </li>
+            <li>
+              <a href="#team">Team</a>
+            </li>
+            <li>
+              <a href="#contacts">Contacts</a>
+            </li>
           </ul>
           <div className="flex flex-col justify-center pt-6 lg:pt-0">
             <div className="flex justify-center space-x-4">
