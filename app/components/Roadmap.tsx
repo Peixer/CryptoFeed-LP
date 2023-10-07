@@ -3,7 +3,7 @@ export default function Roadmap() {
     <div>
       <section className="py-20 ">
         <div className="container mx-auto mb-20 text-center">
-          <p className="block leading-relaxed dark:text-violet-400 mb-2 text-5xl font-bold leadi sm:text-6xl">
+          <p className="block leading-relaxed text-transparent bg-clip-text bg-gradient-to-tl from-violet-600 to-violet-400  mb-2 text-5xl font-bold leadi sm:text-6xl">
             Roadmap
           </p>
           <p className="block antialiased text-lg font-normal leading-relaxed text-slate-50 mx-auto w-full px-4 md:w-10/12 lg:w-7/12 lg:px-8">
@@ -16,7 +16,7 @@ export default function Roadmap() {
             <div className="lg:w-9/12 px-4 mx-auto">
               <ol className="relative border-l border-gray-200 xl:ml-48">
                 <li className="mb-10 ml-14">
-                  <span className="flex absolute -left-5 justify-center items-center h-10 w-10 place-items-center rounded-full bg-amber-100/80  text-amber-500 ring-8 ring-amber-100/40">
+                  <span className="flex absolute -left-5 justify-center items-center h-10 w-10 place-items-center rounded-full bg-gradient-to-tl from-violet-600 to-violet-400  text-slate-50 ring-8 ring-slate-300">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="h-6 w-6"
@@ -33,7 +33,7 @@ export default function Roadmap() {
                   </span>
                   <h3 className="flex items-center mb-2 pt-2 text-xl font-semibold text-slate-50 tracking-normal">
                     Research
-                    <span className="bg-gradient-to-tl from-green-600 to-green-300 shadow-soft-sm text-white text-sm font-semibold mr-2 px-2.5 py-0.5 rounded-xl ml-3">
+                    <span className="bg-gradient-to-tl from-violet-600 to-violet-400 shadow-soft-sm text-white text-sm font-semibold mr-2 px-2.5 py-0.5 rounded-xl ml-3">
                       Latest
                     </span>
                   </h3>
@@ -46,7 +46,7 @@ export default function Roadmap() {
                   </p>
                 </li>
                 <li className="mb-10 ml-14">
-                  <span className="flex absolute -left-5 justify-center items-center h-10 w-10 place-items-center rounded-full bg-amber-100/80  text-amber-500 ring-8 ring-amber-100/40">
+                  <span className="flex absolute -left-5 justify-center items-center h-10 w-10 place-items-center rounded-full bg-gradient-to-tl from-violet-600 to-violet-400  text-slate-50 ring-8 ring-slate-300">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="h-6 w-6"
@@ -72,7 +72,7 @@ export default function Roadmap() {
                   </p>
                 </li>
                 <li className="ml-14">
-                  <span className="flex absolute -left-5 justify-center items-center h-10 w-10 place-items-center rounded-full bg-amber-100/80  text-amber-500 ring-8 ring-amber-100/40">
+                  <span className="flex absolute -left-5 justify-center items-center h-10 w-10 place-items-center rounded-full bg-gradient-to-tl from-violet-600 to-violet-400  text-slate-50 ring-8 ring-slate-300">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="h-6 w-6"

@@ -17,43 +17,58 @@ export default function App() {
   };
 
   return (
-    <Navbar shouldHideOnScroll>
+    <Navbar shouldHideOnScroll isBordered className="bg-transparent">
       <NavbarBrand>
-        <p className="font-bold text-inherit">CryptoFeed</p>
+        <p className="font-bold  tracking-wider text-transparent bg-clip-text bg-gradient-to-tl from-violet-600 to-violet-400 ">
+          CryptoFeed
+        </p>
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
-          <Link color="foreground" onClick={scrollTo} href="#home">
+          <Link
+            className="text-slate-50 hover:text-violet-600 tracking-wider font-semibold"
+            onClick={scrollTo}
+            href="#home">
             Home
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#about" onClick={scrollTo}>
+          <Link
+            className="text-slate-50 hover:text-violet-600 tracking-wider font-semibold"
+            href="#about"
+            onClick={scrollTo}>
             About
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#pricing" onClick={scrollTo}>
-            Pricing
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link color="foreground" onClick={scrollTo} href="#minted">
+          <Link
+            className="text-slate-50 hover:text-violet-600 tracking-wider font-semibold"
+            onClick={scrollTo}
+            href="#minted">
             Minted
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" onClick={scrollTo} href="#roadmap">
+          <Link
+            className="text-slate-50 hover:text-violet-600 tracking-wider font-semibold"
+            onClick={scrollTo}
+            href="#roadmap">
             Roadmap
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" onClick={scrollTo} href="#team">
+          <Link
+            className="text-slate-50 hover:text-violet-600 tracking-wider font-semibold"
+            onClick={scrollTo}
+            href="#team">
             Team
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" onClick={scrollTo} href="#contacts">
+          <Link
+            className="text-slate-50 hover:text-violet-600 tracking-wider font-semibold"
+            onClick={scrollTo}
+            href="#contacts">
             Contacts
           </Link>
         </NavbarItem>

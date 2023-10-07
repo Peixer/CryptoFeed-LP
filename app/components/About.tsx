@@ -3,7 +3,7 @@ const About = () => {
     <div id="#about">
       <section className="py-32">
         <div className="container mx-auto mb-20 text-center">
-          <p className="block leading-relaxed dark:text-violet-400 mb-2 text-5xl font-bold leadi sm:text-6xl">
+          <p className="block leading-relaxed text-transparent bg-clip-text bg-gradient-to-tl from-violet-600 to-violet-400  mb-2 text-5xl font-bold leadi sm:text-6xl">
             About Us
           </p>
           <h2 className="block tracking-normal text-lg font-bold text-slate-50 m-4">
@@ -16,7 +16,7 @@ const About = () => {
         </div>
         <div className="container mx-auto grid grid-cols-1 gap-x-8 gap-y-20 md:grid-cols-2 lg:grid-cols-3">
           <div className="grid justify-center text-center">
-            <div className="mx-auto mb-6 grid h-12 w-12 place-items-center rounded-full bg-amber-100/80 p-2.5 text-amber-500 ring-8 ring-amber-100/40">
+            <div className="mx-auto mb-6 grid h-12 w-12 place-items-center rounded-full p-2.5 bg-gradient-to-tl from-violet-600 to-violet-400  text-slate-50 ring-8 ring-slate-300">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -39,7 +39,7 @@ const About = () => {
             </p>
           </div>
           <div className="grid justify-center text-center">
-            <div className="mx-auto mb-6 grid h-12 w-12 place-items-center rounded-full bg-amber-100/80 p-2.5 text-amber-500 ring-8 ring-amber-100/40">
+            <div className="mx-auto mb-6 grid h-12 w-12 place-items-center rounded-full  p-2.5 bg-gradient-to-tl from-violet-600 to-violet-400  text-slate-50 ring-8 ring-slate-300">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6"
@@ -63,7 +63,7 @@ const About = () => {
             </p>
           </div>
           <div className="grid justify-center text-center">
-            <div className="mx-auto mb-6 grid h-12 w-12 place-items-center rounded-full bg-amber-100/80 p-2.5 text-amber-500 ring-8 ring-amber-100/40">
+            <div className="mx-auto mb-6 grid h-12 w-12 place-items-center rounded-full  p-2.5 bg-gradient-to-tl from-violet-600 to-violet-400  text-slate-50 ring-8 ring-slate-300">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

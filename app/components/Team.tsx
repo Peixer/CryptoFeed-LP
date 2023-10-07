@@ -36,7 +36,7 @@ export default function Team() {
   return (
     <section className="pb-20 pt-14 mb-32">
       <div className="container mx-auto mb-20 text-center">
-        <p className="block leading-relaxed dark:text-violet-400 mb-2 text-5xl font-bold leadi sm:text-6xl">
+        <p className="block leading-relaxed text-transparent bg-clip-text bg-gradient-to-tl from-violet-600 to-violet-400  mb-2 text-5xl font-bold leadi sm:text-6xl">
           Team
         </p>
         <p className="block antialiased text-lg font-normal leading-relaxed text-slate-50 mx-auto w-full px-4 md:w-10/12 lg:w-7/12 lg:px-8">
@@ -66,7 +66,7 @@ export default function Team() {
                     <div className="max-w-full px-3 lg:w-1/2 lg:flex-none">
                       <div className="flex justify-center flex-col h-full text-start">
                         <h5 className="font-semibold mb-1">{data.name}</h5>
-                        <p className="mb-3 text-amber-600 font-semibold">
+                        <p className="mb-3 text-transparent bg-clip-text bg-gradient-to-tl from-violet-600 to-violet-400  font-semibold">
                           {data.role}
                         </p>
                         <p className="mt-2 text-slate-700 mb-0">

@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
 const Waitlist = () => {
   return (
     <div>
-      <section className="py-6 dark:bg-gray-800 dark:text-gray-50">
+      <section className="py-6 dark:text-gray-50">
         <div className="container mx-auto flex flex-col justify-center p-4 space-y-8 md:p-10 lg:space-y-0 lg:space-x-12 lg:justify-between lg:flex-row">
           <div className="flex flex-col space-y-4 text-center lg:text-left">
             <h1 className="text-5xl font-bold leadi">Stay in the loop</h1>
@@ -21,8 +21,8 @@ const Waitlist = () => {
               />
               <button
                 type="button"
-                className="w-2/5 p-3 font-semibold rounded-r-lg sm:w-1/3 dark:bg-violet-400 dark:text-gray-900">
-                Subscribe
+                className="w-2/5 p-3 font-semibold rounded-r-lg sm:w-1/3 bg-gradient-to-tl from-violet-700 to-violet-500  text-slate-200 hover:bg-gradient-to-tl hover:from-violet-800 hover:to-violet-600">
+                Join Waitlist
               </button>
             </div>
           </div>
@@ -30,6 +30,6 @@ const Waitlist = () => {
       </section>
     </div>
   );
-}
+};
 
-export default Waitlist
+export default Waitlist;

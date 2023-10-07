@@ -35,7 +35,7 @@ export default function Carousel() {
   return (
     <div id="#minted">
       <div className="container mx-auto mb-20 text-center">
-        <p className="block leading-relaxed dark:text-violet-400 mb-2 text-5xl font-bold leadi sm:text-6xl">
+        <p className="block leading-relaxed text-transparent bg-clip-text bg-gradient-to-tl from-violet-600 to-violet-400  mb-2 text-5xl font-bold leadi sm:text-6xl">
           Minted NFT's
         </p>
         <p className="block antialiased text-lg font-normal leading-relaxed text-slate-200 mx-auto w-full px-4 md:w-10/12 lg:w-7/12 lg:px-8">
