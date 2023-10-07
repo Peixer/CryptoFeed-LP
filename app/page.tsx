@@ -12,6 +12,7 @@ import Waitlist from "./components/Waitlist";
 import Footer from "./components/Footer";
 
 export default function Home() {
+
   return (
     <NextUIProvider>
       <Navbar />

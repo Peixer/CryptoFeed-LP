@@ -3,13 +3,10 @@ export default function Roadmap() {
     <div>
       <section className="py-20 ">
         <div className="container mx-auto mb-20 text-center">
-          <p className="block text-base leading-relaxed text-amber-500 mb-2 font-bold">
+          <p className="block leading-relaxed dark:text-violet-400 mb-2 text-5xl font-bold leadi sm:text-6xl">
             Roadmap
           </p>
-          <h2 className="block tracking-normal font-bold text-slate-800 mb-4">
-            Our Plans
-          </h2>
-          <p className="block antialiased text-lg font-normal leading-relaxed text-slate-700 mx-auto w-full px-4 md:w-10/12 lg:w-7/12 lg:px-8">
+          <p className="block antialiased text-lg font-normal leading-relaxed text-slate-50 mx-auto w-full px-4 md:w-10/12 lg:w-7/12 lg:px-8">
             This roadmap lets everyone know what we planned for the future of
             this project. Check it out!
           </p>
@@ -34,7 +31,7 @@ export default function Roadmap() {
                       />
                     </svg>
                   </span>
-                  <h3 className="flex items-center mb-2 pt-2 text-xl font-semibold text-slate-800 tracking-normal">
+                  <h3 className="flex items-center mb-2 pt-2 text-xl font-semibold text-slate-50 tracking-normal">
                     Research
                     <span className="bg-gradient-to-tl from-green-600 to-green-300 shadow-soft-sm text-white text-sm font-semibold mr-2 px-2.5 py-0.5 rounded-xl ml-3">
                       Latest
@@ -43,7 +40,7 @@ export default function Roadmap() {
                   <time className="block mb-5 text-sm font-normal leading-none text-slate-400">
                     Starts on 1st January 2023
                   </time>
-                  <p className="mb-4 text-base font-normal text-slate-600">
+                  <p className="mb-4 text-base font-normal text-slate-200">
                     Includes the planning for NFTs design, strategic planning,
                     and marketing materials.
                   </p>
@@ -64,13 +61,13 @@ export default function Roadmap() {
                       />
                     </svg>
                   </span>
-                  <h3 className="flex items-center mb-2 pt-2 text-xl font-semibold text-slate-800 tracking-normal">
+                  <h3 className="flex items-center mb-2 pt-2 text-xl font-semibold text-slate-50 tracking-normal">
                     NFTs Launch
                   </h3>
                   <time className="block mb-5 text-sm font-normal leading-none text-slate-400">
                     Starts on 1st February 2023
                   </time>
-                  <p className="text-base font-normal text-slate-600">
+                  <p className="text-base font-normal text-slate-200">
                     Includes giving access to NFTs holders on our dApp.
                   </p>
                 </li>
@@ -90,13 +87,13 @@ export default function Roadmap() {
                       />
                     </svg>
                   </span>
-                  <h3 className="flex items-center mb-2 pt-2 text-xl font-semibold text-slate-800 tracking-normal">
+                  <h3 className="flex items-center mb-2 pt-2 text-xl font-semibold text-slate-50 tracking-normal">
                     Getting Benefits
                   </h3>
                   <time className="block mb-5 leading-none text-sm text-slate-400">
                     Starts in 1st March 2023
                   </time>
-                  <p className=" font-normal text-slate-600">
+                  <p className=" font-normal text-slate-200">
                     Includes contests and community prizes.
                   </p>
                 </li>

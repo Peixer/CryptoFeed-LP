@@ -36,13 +36,10 @@ export default function Team() {
   return (
     <section className="pb-20 pt-14 mb-32">
       <div className="container mx-auto mb-20 text-center">
-        <p className="block text-base leading-relaxed text-amber-500 mb-2 font-bold">
+        <p className="block leading-relaxed dark:text-violet-400 mb-2 text-5xl font-bold leadi sm:text-6xl">
           Team
         </p>
-        <h2 className="block tracking-normal font-semibold leading-[1.3] text-blue-gray-900 mb-4">
-          Core Team
-        </h2>
-        <p className="block antialiased text-lg font-normal leading-relaxed text-slate-700 mx-auto w-full px-4 md:w-10/12 lg:w-7/12 lg:px-8">
+        <p className="block antialiased text-lg font-normal leading-relaxed text-slate-50 mx-auto w-full px-4 md:w-10/12 lg:w-7/12 lg:px-8">
           Meet the people behind our project. Check out what they are
           specialized on.
         </p>

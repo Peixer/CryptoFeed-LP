@@ -1,5 +1,3 @@
-
-
 export default function Carousel() {
   const images = [
     {
@@ -35,15 +33,12 @@ export default function Carousel() {
   ];
 
   return (
-    <div>
+    <div id="#minted">
       <div className="container mx-auto mb-20 text-center">
-        <p className="block text-base leading-relaxed text-amber-500 mb-2 font-bold">
-          Discover NFTs
+        <p className="block leading-relaxed dark:text-violet-400 mb-2 text-5xl font-bold leadi sm:text-6xl">
+          Minted NFT's
         </p>
-        <h2 className="block tracking-normal font-bold text-slate-800 mb-4">
-          See Minted NFTs
-        </h2>
-        <p className="block antialiased text-lg font-normal leading-relaxed text-slate-600 mx-auto w-full px-4 md:w-10/12 lg:w-7/12 lg:px-8">
+        <p className="block antialiased text-lg font-normal leading-relaxed text-slate-200 mx-auto w-full px-4 md:w-10/12 lg:w-7/12 lg:px-8">
           In this section you can explore other NFTs.
         </p>
       </div>
