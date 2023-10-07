@@ -3,7 +3,7 @@ import React from "react";
 const Waitlist = () => {
   return (
     <div>
-      <section className="py-6 dark:text-gray-50">
+      <section className="py-6 dark:text-gray-50" id="waitlist">
         <div className="container mx-auto flex flex-col justify-center p-4 space-y-8 md:p-10 lg:space-y-0 lg:space-x-12 lg:justify-between lg:flex-row">
           <div className="flex flex-col space-y-4 text-center lg:text-left">
             <h1 className="text-5xl font-bold leadi">Stay in the loop</h1>

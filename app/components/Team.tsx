@@ -34,7 +34,7 @@ export default function Team() {
     },
   ];
   return (
-    <section className="pb-20 pt-14 mb-32">
+    <section className="pb-20 pt-14 mb-32" id="team">
       <div className="container mx-auto mb-20 text-center">
         <p className="block leading-relaxed text-transparent bg-clip-text bg-gradient-to-tl from-violet-600 to-violet-400  mb-2 text-5xl font-bold leadi sm:text-6xl">
           Team

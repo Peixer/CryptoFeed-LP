@@ -31,7 +31,7 @@ body {
     transform: translate(0, 0);
   }
   to {
-    transform: translate(calc(-100% + (6*300px)));
+    transform: translate(calc(-100% + (6 * 300px)));
   }
 }
 
@@ -44,7 +44,11 @@ body {
       transform: translate(0, 0);
     }
     to {
-      transform: translate(calc(-100% + (5*300px)));
+      transform: translate(calc(-100% + (5 * 300px)));
     }
   }
+}
+
+html {
+  scroll-behavior: smooth;
 }

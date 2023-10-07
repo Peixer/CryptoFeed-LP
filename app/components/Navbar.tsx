@@ -24,58 +24,33 @@ export default function App() {
         </p>
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
-        <NavbarItem>
-          <Link
-            className="text-slate-50 hover:text-violet-600 tracking-wider font-semibold"
-            onClick={scrollTo}
-            href="#home">
-            Home
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link
-            className="text-slate-50 hover:text-violet-600 tracking-wider font-semibold"
-            href="#about"
-            onClick={scrollTo}>
-            About
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link
-            className="text-slate-50 hover:text-violet-600 tracking-wider font-semibold"
-            onClick={scrollTo}
-            href="#minted">
-            Minted
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link
-            className="text-slate-50 hover:text-violet-600 tracking-wider font-semibold"
-            onClick={scrollTo}
-            href="#roadmap">
-            Roadmap
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link
-            className="text-slate-50 hover:text-violet-600 tracking-wider font-semibold"
-            onClick={scrollTo}
-            href="#team">
-            Team
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link
-            className="text-slate-50 hover:text-violet-600 tracking-wider font-semibold"
-            onClick={scrollTo}
-            href="#contacts">
-            Contacts
-          </Link>
-        </NavbarItem>
+        <li className="text-slate-50 hover:text-violet-600 tracking-wider font-semibold">
+          <a href="#home">Home</a>
+        </li>
+        <li className="text-slate-50 hover:text-violet-600 tracking-wider font-semibold">
+          <a href="#about">About</a>
+        </li>
+        <li className="text-slate-50 hover:text-violet-600 tracking-wider font-semibold">
+          <a href="#minted">Minted</a>
+        </li>
+        <li className="text-slate-50 hover:text-violet-600 tracking-wider font-semibold">
+          <a href="#roadmap">Roadmap</a>
+        </li>
+        <li className="text-slate-50 hover:text-violet-600 tracking-wider font-semibold">
+          <a href="#team">Team</a>
+        </li>
+        <li className="text-slate-50 hover:text-violet-600 tracking-wider font-semibold">
+          <a href="#contacts">Contacts</a>
+        </li>
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem>
-          <Button as={Link} color="secondary" href="#" variant="shadow">
+          <Button
+            as={Link}
+            color="secondary"
+            href="#waitlist"
+            variant="shadow"
+            className="smooth-scroll">
             Join Waitlist
           </Button>
         </NavbarItem>

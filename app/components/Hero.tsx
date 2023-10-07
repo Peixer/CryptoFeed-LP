@@ -1,4 +1,4 @@
-import { Button, ButtonGroup } from "@nextui-org/react";
+import { Button, ButtonGroup, Link } from "@nextui-org/react";
 
 const Hero = () => {
   return (
@@ -18,14 +18,18 @@ const Hero = () => {
             solution for grandpas powered with AI.
           </p>
           <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-            <Button color="secondary" variant="shadow">
+            <Button
+              color="secondary"
+              variant="shadow"
+              as={Link}
+              href="#waitlist">
               Join Waitlist Now
             </Button>
           </div>
         </div>
         <div className="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
           <img
-            src="/2.1.png" // Path to your image in the public directory
+            src="/2.1.png"
             alt="My Image Alt Text"
             className="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128"
           />
