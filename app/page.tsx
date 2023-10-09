@@ -6,7 +6,6 @@ import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Carousel from "./components/Carousel";
 import Roadmap from "./components/Roadmap";
-import Team from "./components/Team";
 import Waitlist from "./components/Waitlist";
 import Footer from "./components/Footer";
 
@@ -19,7 +18,6 @@ export default function Home() {
       <About />
       <Carousel />
       <Roadmap />
-      <Team />
       <Waitlist />
       <Footer />
     </NextUIProvider>

@@ -23,7 +23,8 @@ export default function Roadmap() {
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
-                      strokeWidth="2">
+                      strokeWidth="2"
+                    >
                       <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
@@ -32,13 +33,13 @@ export default function Roadmap() {
                     </svg>
                   </span>
                   <h3 className="flex items-center mb-2 pt-2 text-xl font-semibold text-slate-50 tracking-normal">
-                    Research
+                    BOOTCAMP V1
                     <span className="bg-gradient-to-tl from-violet-600 to-violet-400 shadow-soft-sm text-white text-sm font-semibold mr-2 px-2.5 py-0.5 rounded-xl ml-3">
                       Latest
                     </span>
                   </h3>
                   <time className="block mb-5 text-sm font-normal leading-none text-slate-400">
-                    Starts on 1st January 2023
+                    Starts on 1st September 2023
                   </time>
                   <p className="mb-4 text-base font-normal text-slate-200">
                     Includes the planning for NFTs design, strategic planning,
@@ -53,7 +54,8 @@ export default function Roadmap() {
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
-                      strokeWidth="2">
+                      strokeWidth="2"
+                    >
                       <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
@@ -62,7 +64,7 @@ export default function Roadmap() {
                     </svg>
                   </span>
                   <h3 className="flex items-center mb-2 pt-2 text-xl font-semibold text-slate-50 tracking-normal">
-                    NFTs Launch
+                    HACKATHON V2
                   </h3>
                   <time className="block mb-5 text-sm font-normal leading-none text-slate-400">
                     Starts on 1st February 2023
@@ -79,7 +81,8 @@ export default function Roadmap() {
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
-                      strokeWidth={2}>
+                      strokeWidth={2}
+                    >
                       <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
@@ -88,10 +91,10 @@ export default function Roadmap() {
                     </svg>
                   </span>
                   <h3 className="flex items-center mb-2 pt-2 text-xl font-semibold text-slate-50 tracking-normal">
-                    Getting Benefits
+                    PUBLIC RELEASE V3
                   </h3>
                   <time className="block mb-5 leading-none text-sm text-slate-400">
-                    Starts in 1st March 2023
+                    Starts in 1st December 2023
                   </time>
                   <p className=" font-normal text-slate-200">
                     Includes contests and community prizes.

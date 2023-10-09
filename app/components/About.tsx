@@ -7,11 +7,10 @@ const About = () => {
             About Us
           </p>
           <h2 className="block tracking-normal text-lg font-bold text-slate-50 m-4">
-            What are our NFTs?
+            What is Crypto Feed?
           </h2>
           <p className="block antialiased text-lg font-normal leading-relaxed text-slate-200 mx-auto w-full px-4 md:w-10/12 lg:w-7/12 lg:px-8">
-            10,000 unique NFTs collection based on Elrond will drive your
-            Metaverse journey. Let&apos;s join forces and take the benefits!
+            {`We've developed an innovative DApp that lets users turn their Instagram Photos into NFT’s with just one click.`}
           </p>
         </div>
         <div className="container mx-auto grid grid-cols-1 gap-x-8 gap-y-20 md:grid-cols-2 lg:grid-cols-3">
@@ -22,7 +21,8 @@ const About = () => {
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                strokeWidth={2}>
+                strokeWidth={2}
+              >
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
@@ -31,11 +31,11 @@ const About = () => {
               </svg>
             </div>
             <h5 className="block tracking-normal  text-xl leading-snug text-slate-50 font-semibold">
-              Feature 1
+              Onboarding
             </h5>
             <p className="block antialiased  text-base leading-relaxed text-slate-200 px-8 font-normal">
-              Join us and you will have access to our dApp. Using it, you will
-              access easier your NFTs and details.
+              Our mission is to unite artistic trailblazers and pioneering
+              influencers from web2 with the endless capabilities of web3.
             </p>
           </div>
           <div className="grid justify-center text-center">
@@ -46,7 +46,8 @@ const About = () => {
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                strokeWidth={2}>
+                strokeWidth={2}
+              >
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
@@ -55,11 +56,11 @@ const About = () => {
               </svg>
             </div>
             <h5 className="block antialiased tracking-normal  text-xl leading-snug text-slate-50 font-semibold">
-              Feature 2
+              Easy Mint
             </h5>
             <p className="block antialiased  text-base leading-relaxed text-slate-200 px-8 font-normal">
-              Through your NFT you will be able to join our contests and take
-              advantage of weekly prizes: Air Drops, eGLD, and others.
+              AI filters and easy no-code solutions that even your grandparents
+              could use.
             </p>
           </div>
           <div className="grid justify-center text-center">
@@ -69,7 +70,8 @@ const About = () => {
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                strokeWidth={2}>
+                strokeWidth={2}
+              >
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
@@ -78,11 +80,11 @@ const About = () => {
               </svg>
             </div>
             <h5 className="block antialiased tracking-normal  text-xl leading-snug text-slate-50 font-semibold">
-              Feature 3
+              Monetize
             </h5>
             <p className="block antialiased  text-base leading-relaxed text-slate-200 px-8 font-normal">
-              Every NFT bought means another tree planted. Soon a planting trees
-              session will start and you will be able to join us.
+              Solana Pay - Empowering creators with seamless transactions,
+              premium perks & royalties
             </p>
           </div>
         </div>

@@ -36,12 +36,6 @@ export default function App() {
         <li className="text-slate-50 hover:text-violet-600 tracking-wider font-semibold">
           <a href="#roadmap">Roadmap</a>
         </li>
-        <li className="text-slate-50 hover:text-violet-600 tracking-wider font-semibold">
-          <a href="#team">Team</a>
-        </li>
-        <li className="text-slate-50 hover:text-violet-600 tracking-wider font-semibold">
-          <a href="#contacts">Contacts</a>
-        </li>
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem>
