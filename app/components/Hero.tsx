@@ -14,7 +14,7 @@ const Hero = () => {
             Candy Machine
           </h1>
           <p className="mt-6 mb-8 text-lg sm:mb-12">
-            Minting NFT's never been easier before. We present you a no code
+            Minting NFTs never been easier before. We present you a no code
             solution for grandpas powered with AI.
           </p>
           <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
